@@ -16,5 +16,7 @@ COPY challenge .
 
 EXPOSE 8005
 
+RUN echo -e '\033[1;32mThe challenge is accessible on http://localhost:1337\033[0m'
+
 ENTRYPOINT ["python3"]
 CMD ["mnmlsm.py"]
