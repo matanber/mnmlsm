@@ -1,3 +1,4 @@
+from os import path
 from flask import *
 from datetime import datetime
 from pyppeteer import launch
@@ -37,7 +38,7 @@ def mark():
 async def check():
 	browser = await launch(
 		args=['--no-sandbox', '--disable-setuid-sandbox'],
-		executablePath='/usr/bin/chromium-browser',
+		executablePath='/usr/bin/chromium-browser' if path.exists('/usr/bin/chromium-browser') else '',
 		handleSIGINT=False,
 		handleSIGTERM=False,
 		handleSIGHUP=False
