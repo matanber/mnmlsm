@@ -124,8 +124,7 @@ p {
 }
 
 .icon {
-    height: 50px;
-    width: 50px;
+    height: 2rem;
     position: absolute;
     top: 50%;
     left:50%;
@@ -134,29 +133,27 @@ p {
     transition: 0.1s;
 }
 
-.social-logo {
-    opacity: 0.8;
-}
-
 #notch:hover .icon {
     opacity: 1;
 }
 
-#notch:hover #clear-icon {
+#notch:hover #submit-icon {
     cursor: pointer;
-    top: -30px;
-    left: 185px;
+    transform: translate(-100px, -40px) translate(-50%,0);
 }
 
 #notch:hover #about-icon {
-    top: -60px;
     z-index: 5;
+    transform: translate(0px, -100px) translate(-50%,0);
 }
 
-#notch:hover #submit-icon {
+#notch:hover #clear-icon {
     cursor: pointer;
-    top: -30px;
-    left: -10px;
+    transform: translate(100px, -40px) translate(-50%,0);
+}
+
+.social-logo {
+    opacity: 0.8;
 }
 
 #submit-message {
@@ -203,7 +200,7 @@ p {
     /* border:1px solid green; */
 }
 
-#about-container:has(#about-icon:hover) #about-box, #about-box:hover{
+#about-icon:hover ~ #about-box, #about-box:hover{
     opacity: 1;
 }
 
