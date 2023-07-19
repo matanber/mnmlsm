@@ -139,17 +139,17 @@ p {
 
 #notch:hover #submit-icon {
     cursor: pointer;
-    transform: translate(-120px, -30px) translate(-50%,-50%);
+    transform: translate(-80px, -30px) translate(-50%,-50%);
 }
 
 #notch:hover #about-icon {
     z-index: 5;
-    transform: translate(0px, -80px) translate(-50%,-50%);
+    transform: translate(0px, -40px) translate(-50%,-50%);
 }
 
 #notch:hover #clear-icon {
     cursor: pointer;
-    transform: translate(120px, -30px) translate(-50%,-50%);
+    transform: translate(80px, -30px) translate(-50%,-50%);
 }
 
 .social-logo {
@@ -177,7 +177,7 @@ p {
     position: fixed;
     top: -260px;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 2rem);
     text-align: center;
     background-color: #ffffff;
     padding: 20px;
@@ -208,6 +208,6 @@ p {
     font-size: 90%;
     font-family: 'Share Tech Mono', monospace;
     letter-spacing: 0.2em;
-    margin-top: 10px;
+    margin-top: 1em;
     opacity: 0.5;
 }
