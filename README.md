@@ -1,5 +1,5 @@
 <h1 align="center">Mnmlsm</h1>
-<h4 align="center">A simple yet diffucult cybersecurity challenge, based on a real world finding.</h1>
+<h4 align="center">A simple yet difficult cybersecurity challenge, based on a real world finding.</h1>
 
 ![screenshot](/challenge/static/screenshot.png)
 
