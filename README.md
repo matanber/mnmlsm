@@ -14,7 +14,7 @@ The challenge will then be accessible on [localhost port 1337](http://localhost:
 ## Submission
 Before submitting your payload, you can try to optimize it to minimize line count and unique lines count.
 
-When you're done, DM your payload to [twitter/@matanber_sec](https://twitter.com/matanber_sec) and I'll add you to the leaderboard!
+When you're done, DM your payload to [twitter/@MtnBer](https://twitter.com/MtnBer) and I'll add you to the leaderboard!
 
 ## Rewards
 The hacker who solves the challenge with the most optimized payload will be immortalized in the challenge's default message.
