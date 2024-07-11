@@ -10,3 +10,7 @@ cd mnmlsm
 ./build-docker.sh
 ```
 The challenge will then be accessible on [localhost port 1337](http://localhost:1337)
+
+## Solution
+A blog post with a solution to this challenge can be found [here](https://matanber.com/blog/4-char-csti).
+This challenge is difficult, so if you don't want to spend a lot of time on this challenge I'd recommend reading a bit from that post whenever you get stuck.
